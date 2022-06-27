@@ -1,5 +1,10 @@
-function App() {
-  return <div className="App">//? add components here</div>;
-}
+import Slider from "./Components/Slider/Slider";
+import "./index.css";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Slider />
+    </>
+  );
+}

@@ -1,7 +1,14 @@
-* {
-    box-sizing: border-box;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 0;
+  font-family: Open sans, sans-serif;
+  height: 100vh;
+  background: #f1f1f1;
+  overflow: hidden;
 }
